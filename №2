@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(int argc, char *argv[]){
+cout << "Enter string: ";
+char b;
+b = cin.get();
+int a = 0;
+   do 
+   {
+          if( b == 'w')
+            {
+              a = a + 1;
+            };
+       b = cin.get();
+   } 
+   while( b != '\n');
+cout << "number w: " << a << endl;
+return 0;
+}
